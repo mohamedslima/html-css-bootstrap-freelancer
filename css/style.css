@@ -1,0 +1,70 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+/* header */
+
+header {
+    background-color: #2c3f4f;
+    height: 80px;
+}
+
+div.header-title {
+    background-color: bisque;
+}
+
+div.header-menu {
+    background-color: bisque;
+}
+
+/* banner */
+
+div.banner-container {
+    height: 600px;
+    background-color: #1cbc9b;
+}
+
+/* portfolio */
+
+div.title-portfolio {
+    height: 160px;
+    background-color: coral;
+}
+
+div.portfolio-img {
+    height: 300px;
+    background-color: orchid;
+}
+
+div.portfolio-img {
+    margin-top: 10px;
+}
+
+/* about */
+
+section.about {
+    width: 100%;
+    height: 550px;
+    background-color: #1cbc9b;
+}
+
+div.title-about {
+    height: 120px;
+    background-color: darkcyan;
+}
+
+div.about-text {
+    height: 290px;
+    background-color: forestgreen;
+}
+
+div.download-btn-sect {
+    height: 100px;
+    background-color: deepskyblue;
+}
