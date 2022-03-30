@@ -67,6 +67,7 @@ div.title-portfolio > span {
 
 div.portfolio-img {
     contain: content;
+    margin-top: 2rem;
 }
 
 img.img-portfolio-ct {
@@ -76,53 +77,110 @@ img.img-portfolio-ct {
 /* about */
 
 section.about {
+    margin-top: 6rem;
     background-color: #1cbc9b;
 }
 
-div.title-about {
-    text-align: center;
-}
-
-div.about-text.left {
-    padding-left: 180px;
-}
-
-div.about-text.right {
-    padding-right: 180px;
-}
-
+div.title-about,
 div.download-btn-sect {
-    height: 100px;
-    background-color: deepskyblue;
+    text-align: center;
 }
 
 /* contact me */
 
-section.contact-me {
-    height: 600px;
-    background-color: cadetblue;
+
+div.info-data {
+    margin-right: 7rem;
+    margin-left: 7rem;
 }
+
+button.bg-c {
+    background-color: #1cbc9b;
+    border: none;
+    margin: .4rem 0 4rem;
+}
+
 
 /* footer up and down */
 
 section.footer.up {
-    /* height: 200px; */
     background-color: #3b546d;
 }
 
 section.footer.down {
-    height: 80px;
     background-color: #2c3f4f;
 }
 
-div.location {
-    background-color: indianred;
+div.location > span {
+    display: block;
 }
 
-div.link-social-page {
-    background-color: indianred;
-}
-
+div.location,
+div.link-social-page,
 div.info-freelancer {
-    background-color: indianred;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
+
+div.link-social-page > h5 {
+    padding-bottom: 1rem;
+}
+
+span.link-social-icon {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: .5rem;
+}
+
+a.btn-start-bs {
+    text-decoration: none;
+    color: #1cbc9b;
+}
+
+a.btn-start-bs:hover {
+    color: #1cbc9b;
+    text-decoration: underline;
+}
+
+div.text-copyright {
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* star box */
+
+div.contact-me-title {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+div.star-box {
+    display: flex;
+    align-items: center;
+    margin-left: 31rem;
+}
+
+i.fas.fa-star {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+div.line-star {
+    background-color: black;
+    height: .2rem;
+    width: 8rem;
+    border-radius: 10px;
+
+}
+
+div.line-star.banner {
+    background-color: white;
+}
+
+/* /star box */
