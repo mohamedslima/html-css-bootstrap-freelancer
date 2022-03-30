@@ -52,35 +52,43 @@ div.text-after-image-banner {
 
 /* portfolio */
 
-div.title-portfolio {
-    height: 160px;
-    background-color: coral;
-}
-
 div.portfolio-img {
     height: 300px;
-    background-color: orchid;
+    margin-top: 10px;
+}
+
+div.title-portfolio {
+    text-align: center;
+}
+
+div.title-portfolio > span {
+    color: #2c3f4f;
 }
 
 div.portfolio-img {
-    margin-top: 10px;
+    contain: content;
+}
+
+img.img-portfolio-ct {
+    width: 100%;
 }
 
 /* about */
 
 section.about {
-    /* height: 550px; */
     background-color: #1cbc9b;
 }
 
 div.title-about {
-    height: 120px;
-    background-color: darkcyan;
+    text-align: center;
 }
 
-div.about-text {
-    height: 290px;
-    background-color: forestgreen;
+div.about-text.left {
+    padding-left: 180px;
+}
+
+div.about-text.right {
+    padding-right: 180px;
 }
 
 div.download-btn-sect {
