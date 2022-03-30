@@ -36,9 +36,15 @@ div.header-menu > ul > li > a {
 /* banner */
 
 div.banner-container {
-    height: 600px;
     background-color: #1cbc9b;
 }
+
+img.image-bnr {
+    width: 15%;
+}
+
+
+
 
 /* portfolio */
 
